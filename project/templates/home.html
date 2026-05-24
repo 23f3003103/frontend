@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="/project/static/style.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <h1>Admin Dashboard</h1>
+
+    <!-- TOP STATS -->
+    <div class="cards">
+
+        <div class="card">
+            <h3>Total Students</h3>
+            <p>120</p>
+        </div>
+
+        <div class="card">
+            <h3>Total Companies</h3>
+            <p>35</p>
+        </div>
+
+        <div class="card">
+            <h3>Total Applications</h3>
+            <p>210</p>
+        </div>
+
+        <div class="card">
+            <h3>Placement Drives</h3>
+            <p>18</p>
+        </div>
+
+    </div>
+
+
+    <!-- COMPANY APPROVAL -->
+    <div class="section">
+        <h2>Company Registrations</h2>
+
+        <table>
+            <tr>
+                <th>Company Name</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+
+            <tr>
+                <td>Infosys</td>
+                <td>Pending</td>
+                <td>
+                    <button class="approve">Approve</button>
+                    <button class="reject">Reject</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>TCS</td>
+                <td>Pending</td>
+                <td>
+                    <button class="approve">Approve</button>
+                    <button class="reject">Reject</button>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <!-- PLACEMENT DRIVES -->
+    <div class="section">
+        <h2>Placement Drives</h2>
+
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+
+            <tr>
+                <td>Wipro</td>
+                <td>Software Engineer</td>
+                <td>Pending</td>
+                <td>
+                    <button class="approve">Approve</button>
+                    <button class="reject">Reject</button>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <!-- SEARCH -->
+    <div class="section">
+        <h2>Search</h2>
+
+        <input type="text" placeholder="Search student by name or ID">
+        <button>Search</button>
+
+        <br><br>
+
+        <input type="text" placeholder="Search company by name">
+        <button>Search</button>
+    </div>
+
+
+    <!-- BLACKLIST -->
+    <div class="section">
+        <h2>Blacklist / Deactivate</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Action</th>
+            </tr>
+
+            <tr>
+                <td>Rahul Sharma</td>
+                <td>Student</td>
+                <td>
+                    <button class="blacklist">Blacklist</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>ABC Pvt Ltd</td>
+                <td>Company</td>
+                <td>
+                    <button class="blacklist">Deactivate</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
