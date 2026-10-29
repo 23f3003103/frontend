@@ -12,6 +12,29 @@ multi line comments
 // 1. let :- mutable
 // 2. var :- block scoop 
 // 3. const :- unmutable
+// const accountId = 144553
+// let accountEmail = "hitesh@google.com"
+// var accountPassword = "12345"
+// accountCity = "Jaipur"
+// let accountState;
+
+// // accountId = 2 // not allowed
+
+
+// accountEmail = "hc@hc.com"
+// accountPassword = "21212121"
+// accountCity = "Bengaluru"
+
+// console.log(accountId);
+
+// /*
+// Prefer not to use var
+// because of issue in block scope and functional scope
+// */
+
+
+// console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+
 
 // const accountId = 12345 // immutable assignment(once assign does not change)
 // let accountEmail = "ankush@gmail.com" // best way to assign variables
@@ -29,6 +52,36 @@ multi line comments
 // └─────────┴────────────────────┘
 
 
+
+
+// console.log(3 
+//     +
+//      3) // code readability should be high
+
+// console.log("Hitesh")
+
+
+// let name = "hitesh"
+// let age = 18
+// let isLoggedIn = false
+// let state;
+
+// // number => 2 to power 53
+// // bigint
+// // string => ""
+// // boolean => true/false
+// // null => standalone value
+// // undefined => 
+// // symbol => unique
+
+
+// // object
+
+// console.log(typeof undefined); // undefined
+// console.log(typeof null); // object
+
+
+
 // ****************DataTypes*********************
 // 1. Primitive Datatypes
 // number => 2 to power 3
@@ -42,8 +95,8 @@ multi line comments
 
 // ***************** Operations *****************
 
-// let val = 10
-// let value = -val
+// let val = 10;
+// let value = -val;
 // console.log(value);
 
 // console.log(3+3); // addition
@@ -54,11 +107,35 @@ multi line comments
 // console.log(8%3); // remainder
 
 // ******** Concatenation
-// let str1 = "Hello"
-// let str2 = " Ankush!"
+// let str1 = "Hello";
+// let str2 = " Ankush!";
 
-// let str3 = str1 + str2
+// --------------- method 1 ----------------
+// let str3 = str1 + str2;
 // console.log(str3);
+
+// --------------- method 2 ----------------
+// let fullStr = str1.concat(str2);
+// console.log(fullStr);
+
+// --------------- method 3 ----------------
+// str1 += " Ankush";
+// console.log(str1);
+
+// --------------- Length ----------------
+// let name = "Ankush Maurya";
+// console.log(name.length);
+
+// // --------------- Cases ----------------
+// console.log(name.toUpperCase());
+// console.log(name.toLowerCase());
+
+// // --------------- String Slice ----------------
+// console.log(name.slice(0,4)); ---> 'Ank'
+
+
+
+
 
 // console.log(1 + "2");
 // console.log("1" + 2);
